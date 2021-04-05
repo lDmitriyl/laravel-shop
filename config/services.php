@@ -34,4 +34,10 @@ return [
         'secret' => env('SPARKPOST_SECRET'),
     ],
 
+    'vk' => [
+        'url' =>env('VK_API_URL', 'https://api.vk.com/method/'),
+        'token' => env('VK_API_ACCESS_TOKEN'),
+        'version' => env('VK_API_VERSION', '5.130')
+    ],
+
 ];
